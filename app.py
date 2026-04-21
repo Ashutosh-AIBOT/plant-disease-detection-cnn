@@ -10,6 +10,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 import torch.nn.functional as F
+from huggingface_hub import hf_hub_download
 from utils.app_utils import load_cnn_model, predict_disease, setup_rag, get_rag_context, get_groq_llm
 
 # --------------------------
@@ -75,9 +76,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Constants
-MODEL_PATH = "plant_disease_cnn.pth"
+# --------------------------
+# CONSTANTS & LABELS
+# --------------------------
+HF_REPO_ID = "Ashutosh1975/plant-disease-model"
 KNOWLEDGE_BASE = "data/knowledge_base.txt"
+
+MODEL_FILES = {
+    "Main Model": "plant_disease_cnn.pth",
+    "Apple Model": "plant_disease_Apple.pth",
+    "Tomato Model": "plant_disease_Tomato.pth",
+    "Potato Model": "plant_disease_Potato.pth",
+    "Corn Model": "plant_disease_Corn.pth"
+}
+
 MAIN_CLASSES = [
     'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
     'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy',
@@ -100,14 +112,13 @@ if "processed_ids" not in st.session_state:
     st.session_state.processed_ids = set()
 
 @st.cache_resource
-def load_resources():
-    model = load_cnn_model(MODEL_PATH, len(MAIN_CLASSES))
+def load_resources(model_name):
+    filename = MODEL_FILES.get(model_name, "plant_disease_cnn.pth")
+    # In production, we'd use hf_hub_download, but here we assume local or downloaded
+    model = load_cnn_model(filename, len(MAIN_CLASSES))
     vectorstore = setup_rag(KNOWLEDGE_BASE)
     llm = get_groq_llm()
     return model, vectorstore, llm
-
-with st.spinner("PhytoScan AI Initializing..."):
-    model, vectorstore, llm = load_resources()
 
 # --------------------------
 # SIDEBAR
@@ -118,16 +129,20 @@ with st.sidebar:
         <div style="font-family:'Syne',sans-serif; font-size:1.2rem; font-weight:800;
                     color:#4ade80; letter-spacing:-0.01em;">🌿 PhytoScan</div>
         <div style="font-size:0.72rem; color:#4ade8066; text-transform:uppercase;
-                    letter-spacing:0.12em; margin-top:2px;">AI-Powered Plant Disease Detection System</div>
+                    letter-spacing:0.12em; margin-top:2px;">AI-Powered Plant Disease Detection</div>
     </div>
     """, unsafe_allow_html=True)
     
+    model_choice = st.selectbox("🎯 SELECT AI MODEL", list(MODEL_FILES.keys()))
     action_mode = st.radio("🛠 SELECT ACTION", ["💬 CHAT & DIAGNOSTIC", "📁 UPLOAD LEAF", "📷 LIVE SCAN"])
     
     if st.button("🗑 RESET SESSION", use_container_width=True):
         st.session_state.messages = []
         st.session_state.processed_ids = set()
         st.rerun()
+
+with st.spinner("PhytoScan AI Initializing..."):
+    model, vectorstore, llm = load_resources(model_choice)
 
 # --------------------------
 # DASHBOARD HEADER
@@ -155,7 +170,7 @@ col1, col2, col3, col4 = st.columns(4)
 col1.markdown(f'<div class="stat-card"><div class="stat-value">{total}</div><div class="stat-label">Total Scans</div></div>', unsafe_allow_html=True)
 col2.markdown(f'<div class="stat-card"><div class="stat-value">{healthy}</div><div class="stat-label">Healthy Plants</div></div>', unsafe_allow_html=True)
 col3.markdown(f'<div class="stat-card"><div class="stat-value">{total-healthy}</div><div class="stat-label">Issues Detected</div></div>', unsafe_allow_html=True)
-col4.markdown(f'<div class="stat-card"><div class="stat-value">38</div><div class="stat-label">AI Classes</div></div>', unsafe_allow_html=True)
+col4.markdown(f'<div class="stat-card"><div class="stat-value">{len(MAIN_CLASSES)}</div><div class="stat-label">Classes Active</div></div>', unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -198,11 +213,11 @@ for msg in st.session_state.messages:
 # Inputs
 if action_mode == "📁 UPLOAD LEAF":
     up_file = st.file_uploader("Upload leaf image", type=["jpg","jpeg","png"], label_visibility="collapsed")
-    if up_file: handle_diagnostic(up_file, f"{up_file.name}_{up_file.size}")
+    if up_file: handle_diagnostic(up_file, f"{up_file.name}_{up_file.size}_{model_choice}")
 
 elif action_mode == "📷 LIVE SCAN":
     cam_file = st.camera_input("Capture leaf image", label_visibility="collapsed")
-    if cam_file: handle_diagnostic(cam_file, f"cam_{int(time.time())}")
+    if cam_file: handle_diagnostic(cam_file, f"cam_{int(time.time())}_{model_choice}")
 
 # Chat input
 if chat_prompt := st.chat_input("Ask about treatment or plant care..."):
