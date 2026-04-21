@@ -1,0 +1,229 @@
+Apple Scab (Venturia inaequalis)
+Overview: A common fungal disease of apple trees that causes dark, scabby lesions on leaves and fruit.
+Symptoms: Olive-green to brown spots on leaves; fruit develops brown, corky scabs.
+Spread: Spores spread by wind and rain, especially in cool, wet spring weather.
+Actions: Prune affected branches; apply fungicides; remove fallen leaves.
+Prevention: Plant resistant varieties; ensure good air circulation.
+
+Apple Black Rot (Botryosphaeria obtusa)
+Overview: A fungal disease affecting fruit, leaves, and bark of apple trees.
+Symptoms: "Frogeye" leaf spots; firm, brown rot on fruit with concentric rings.
+Spread: Overwinters in cankers and mummified fruit; spreads via splashing rain.
+Actions: Remove cankers and mummies; apply appropriate fungicides.
+Prevention: Maintain tree vigor; prune during dormancy.
+
+Apple Cedar Apple Rust (Gymnosporangium juniperi-virginianae)
+Overview: A fungus that requires two hosts: apple trees and Eastern Red Cedar.
+Symptoms: Bright orange-yellow spots on apple leaves; galls on cedar trees.
+Spread: Spores travel by wind between host plants.
+Actions: Apply fungicides at the right time; remove nearby cedar galls.
+Prevention: Plant resistant cultivars; keep apple trees away from cedars.
+
+Apple Healthy
+Overview: The apple tree shows no signs of disease.
+Care: Continue regular watering, fertilizing, and pruning to maintain health.
+
+Blueberry Healthy
+Overview: The blueberry plant shows no signs of disease.
+Care: Ensure acidic soil (pH 4.5-5.5) and consistent moisture.
+
+Cherry Powdery Mildew (Podosphaera clandestina)
+Overview: A fungal disease that coats leaves in a white, powdery substance.
+Symptoms: White fungal growth on leaves and shoots; curling or stunted leaves.
+Spread: Spores are wind-borne and thrive in warm, humid conditions.
+Actions: Increase airflow; apply sulfur-based or neem oil sprays.
+Prevention: Prune for better light and air penetration.
+
+Cherry Healthy
+Overview: The cherry tree shows no signs of disease.
+Care: Monitor for pests and ensure proper drainage.
+
+Corn Cercospora Leaf Spot (Gray Leaf Spot)
+Overview: A significant fungal disease of corn caused by Cercospora zeae-maydis.
+Symptoms: Rectangular, gray to tan spots on leaves that run parallel to veins.
+Spread: Spores survive in crop residue and spread by wind/rain.
+Actions: Use resistant hybrids; apply fungicides if severity is high.
+Prevention: Crop rotation; manage crop residue.
+
+Corn Common Rust (Puccinia sorghi)
+Overview: A fungal disease that causes reddish-brown pustules on corn leaves.
+Symptoms: Small, cinnamon-brown pustules on both upper and lower leaf surfaces.
+Spread: Wind-borne spores often travel from southern regions.
+Actions: Usually doesn't require treatment unless severe; use resistant hybrids.
+Prevention: Early planting can sometimes reduce impact.
+
+Corn Northern Leaf Blight (Exserohilum turcicum)
+Overview: A fungal disease causing large, cigar-shaped lesions on corn leaves.
+Symptoms: Long, elliptical, grayish-green to tan lesions (1-6 inches long).
+Spread: Favorable conditions include moderate temperatures and high humidity.
+Actions: Use resistant hybrids; apply foliar fungicides if necessary.
+Prevention: Crop rotation and tillage to bury residue.
+
+Corn Healthy
+Overview: The corn plant shows no signs of disease.
+Care: Ensure adequate nitrogen and moisture during silking.
+
+Grape Black Rot (Guignardia bidwellii)
+Overview: A devastating fungal disease for grape growers in humid areas.
+Symptoms: Small brown spots on leaves; berries turn into black, shriveled "mummies."
+Spread: Spores spread via rain splash from infected tissues.
+Actions: Remove mummified berries; apply fungicides during the growing season.
+Prevention: Keep vines off the ground; ensure good canopy management.
+
+Grape Esca (Black Measles)
+Overview: A complex wood-decay disease of grapevines.
+Symptoms: "Tiger-stripe" pattern on leaves; dark spots on berry skins.
+Spread: Fungi enter through pruning wounds.
+Actions: Protect pruning wounds; remove infected wood.
+Prevention: Use clean planting material; avoid excessive stress on vines.
+
+Grape Leaf Blight (Isariopsis Leaf Spot)
+Overview: A fungal disease that affects grape foliage.
+Symptoms: Irregular, dark brown spots on leaves that may coalesce.
+Spread: Wet weather favors the development and spread of spores.
+Actions: Apply protective fungicides; ensure good vineyard sanitation.
+Prevention: Improve air circulation through pruning.
+
+Grape Healthy
+Overview: The grapevine shows no signs of disease.
+Care: Regular pruning and trellis maintenance.
+
+Orange Citrus Greening (Huanglongbing)
+Overview: One of the most serious citrus diseases, caused by bacteria.
+Symptoms: Mottled leaves; small, bitter, lopsided fruit that stays green at the bottom.
+Spread: Transmitted by the Asian citrus psyllid (an insect).
+Actions: No cure; remove infected trees to prevent spread.
+Prevention: Control the psyllid population; use certified disease-free nursery stock.
+
+Peach Bacterial Spot (Xanthomonas arboricola pv. pruni)
+Overview: A bacterial disease affecting peach fruit, leaves, and twigs.
+Symptoms: Small, water-soaked spots on leaves that turn brown/black; pitted fruit.
+Spread: Bacteria spread by wind-blown rain.
+Actions: Apply copper-based sprays or antibiotics as recommended.
+Prevention: Plant resistant varieties; avoid overhead irrigation.
+
+Peach Healthy
+Overview: The peach tree shows no signs of disease.
+Care: Thin fruit to prevent branch breakage and improve size.
+
+Pepper, Bell Bacterial Spot
+Overview: Caused by Xanthomonas species, affecting peppers and tomatoes.
+Symptoms: Small, dark, raised spots on leaves and fruit; leaf yellowing and drop.
+Spread: Spread by splashing rain and contaminated seeds/tools.
+Actions: Use copper sprays; remove infected plants immediately.
+Prevention: Use certified seeds; rotate crops (avoid peppers/tomatoes for 2 years).
+
+Pepper, Bell Healthy
+Overview: The pepper plant shows no signs of disease.
+Care: Provide consistent water to prevent blossom end rot.
+
+Potato Early Blight (Alternaria solani)
+Overview: A fungal disease that causes "target" spots on potato leaves.
+Symptoms: Concentric rings within brown spots; lower leaves affected first.
+Spread: Spores spread by wind, rain, and irrigation.
+Actions: Apply fungicides; ensure proper nutrition (especially nitrogen).
+Prevention: Crop rotation; manage volunteer potato plants.
+
+Potato Late Blight (Phytophthora infestans)
+Overview: The infamous "potato famine" disease; highly destructive.
+Symptoms: Large, dark, water-soaked patches on leaves; white fungal growth on undersides.
+Spread: Rapid spread in cool, wet weather via wind-borne spores.
+Actions: Use preventative fungicides; destroy infected plants/tubers.
+Prevention: Use certified seed tubers; avoid overhead watering.
+
+Potato Healthy
+Overview: The potato plant shows no signs of disease.
+Care: Hill up potatoes to protect tubers from sunlight and pests.
+
+Raspberry Healthy
+Overview: The raspberry plant shows no signs of disease.
+Care: Prune out old canes after harvest.
+
+Soybean Healthy
+Overview: The soybean plant shows no signs of disease.
+Care: Monitor for pests like soybean aphids.
+
+Squash Powdery Mildew
+Overview: A fungal disease common in cucurbits like squash and pumpkins.
+Symptoms: White, flour-like patches on leaves and stems; leaves may turn yellow/brown.
+Spread: Thrives in high humidity and moderate temperatures.
+Actions: Apply fungicides or milk-based sprays; improve airflow.
+Prevention: Plant resistant varieties; provide full sun.
+
+Strawberry Leaf Scorch (Diplocarpon earlianum)
+Overview: A fungal disease that affects strawberry leaves.
+Symptoms: Small, dark purple spots that enlarge and turn brown; leaves look "scorched."
+Spread: Spores spread by water splashing.
+Actions: Remove old leaves; apply fungicides if necessary.
+Prevention: Avoid overhead watering; space plants for air circulation.
+
+Strawberry Healthy
+Overview: The strawberry plant shows no signs of disease.
+Care: Mulch with straw to keep fruit off the soil.
+
+Tomato Bacterial Spot
+Overview: Similar to pepper bacterial spot; caused by Xanthomonas.
+Symptoms: Small, dark spots on leaves and fruit; spots on fruit are often raised/scabby.
+Spread: Water-borne; enters through wounds or natural openings.
+Actions: Copper-based sprays; remove infected debris.
+Prevention: Crop rotation; avoid working in wet foliage.
+
+Tomato Early Blight
+Overview: A common fungal disease caused by Alternaria solani.
+Symptoms: Concentric "target" spots on older leaves; yellowing around spots.
+Spread: Soil-borne spores splashed onto lower leaves.
+Actions: Remove lower leaves; apply fungicides; mulch at base.
+Prevention: Proper spacing; crop rotation.
+
+Tomato Late Blight
+Overview: Highly contagious fungal disease (Phytophthora infestans).
+Symptoms: Large, dark, oily-looking patches on leaves and fruit.
+Spread: Extremely fast in wet, humid conditions.
+Actions: Immediate removal of infected plants; preventative fungicide use.
+Prevention: Use resistant varieties; ensure good drainage.
+
+Tomato Leaf Mold (Passalora fulva)
+Overview: A fungal disease common in greenhouses with high humidity.
+Symptoms: Pale green or yellow spots on upper leaf surface; olive-green mold underneath.
+Spread: Spores spread by wind and water.
+Actions: Reduce humidity; improve ventilation; apply fungicides.
+Prevention: Use resistant cultivars; avoid wetting foliage.
+
+Tomato Septoria Leaf Spot
+Overview: One of the most common tomato diseases (Septoria lycopersici).
+Symptoms: Small, circular spots with dark borders and gray centers; tiny black specks.
+Spread: Spores splash from soil or debris onto lower leaves.
+Actions: Remove infected leaves; apply fungicides; mulch well.
+Prevention: Don't overhead water; rotate crops.
+
+Tomato Spider Mites (Two-spotted Spider Mite)
+Overview: Tiny arachnids that suck sap from tomato leaves.
+Symptoms: Fine yellow stippling on leaves; webbing visible in severe cases.
+Spread: Move through wind or on clothing/tools.
+Actions: Spray with water to dislodge; use insecticidal soap or neem oil.
+Prevention: Keep plants well-hydrated; avoid dusty conditions.
+
+Tomato Target Spot (Corynespora cassiicola)
+Overview: A fungal disease that causes spots similar to early blight.
+Symptoms: Brown spots with faint concentric rings; fruit may develop sunken lesions.
+Spread: Favored by high humidity and warm temperatures.
+Actions: Apply appropriate fungicides; improve air circulation.
+Prevention: Remove crop residue; rotate with non-host crops.
+
+Tomato Yellow Leaf Curl Virus (TYLCV)
+Overview: A devastating virus transmitted by whiteflies.
+Symptoms: Severe stunting; leaves curl upward and turn yellow.
+Spread: Exclusively by the silverleaf whitefly.
+Actions: Remove infected plants; control whiteflies.
+Prevention: Use whitefly-resistant varieties; use reflective mulches.
+
+Tomato Mosaic Virus (ToMV)
+Overview: A highly infectious virus affecting tomatoes.
+Symptoms: Mottled "mosaic" pattern on leaves; distorted growth; reduced yield.
+Spread: Spread by mechanical means (hands, tools) and infected seeds.
+Actions: No cure; remove and destroy infected plants immediately.
+Prevention: Use resistant varieties; wash hands/tools after handling.
+
+Tomato Healthy
+Overview: The tomato plant shows no signs of disease.
+Care: Provide consistent water and support (staking/caging).

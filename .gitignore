@@ -1,0 +1,61 @@
+# ==========================
+# Python Cache
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================
+# Virtual Environments
+# ==========================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# ==========================
+# Streamlit Cache
+# ==========================
+.streamlit/
+.streamlit/secrets.toml
+
+# ==========================
+# HuggingFace Cache
+# ==========================
+~/.cache/huggingface/
+huggingface/
+hf_cache/
+cache/
+
+# ==========================
+# Model Files (Managed via Git LFS)
+# ==========================
+*.onnx
+
+# ==========================
+# Ignore demo/test files
+# ==========================
+Demo.py
+demo.py
+test.py
+tests/
+
+# ==========================
+# Environment / Secrets
+# ==========================
+.env
+*.env
+
+# ==========================
+# OS Generated
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary Files
+# ==========================
+*.log
+*.tmp

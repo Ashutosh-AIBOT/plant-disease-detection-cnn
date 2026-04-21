@@ -1,0 +1,8 @@
+model,prediction,confidence,file_name,timestamp
+Peach Model,"Pepper,_bell___healthy",0.5623430609703064,fcf3bce8-b685-4483-bac4-a2d0d14d6eeb___JR_FrgE.S 8810.JPG,2025-11-17T04:53:12.181489
+Main Model,Raspberry___healthy,0.8887849450111389,fcf3bce8-b685-4483-bac4-a2d0d14d6eeb___JR_FrgE.S 8810.JPG,2025-11-17T04:53:40.386743
+Berry Model,Raspberry___healthy,0.9652387499809265,fcf3bce8-b685-4483-bac4-a2d0d14d6eeb___JR_FrgE.S 8810.JPG,2025-11-17T04:53:52.108960
+Main Model,Raspberry___healthy,0.8887849450111389,fcf3bce8-b685-4483-bac4-a2d0d14d6eeb___JR_FrgE.S 8810.JPG,2025-11-17T19:20:23.680294
+Main Model,Raspberry___healthy,0.8887849450111389,fcf3bce8-b685-4483-bac4-a2d0d14d6eeb___JR_FrgE.S 8810.JPG,2025-11-17T20:07:53.722723
+Tue Apr 21 18:32:29 2026,Squash___Powdery_mildew,0.9999992847442627
+Tue Apr 21 18:34:39 2026,Squash___Powdery_mildew,0.9999992847442627
